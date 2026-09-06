@@ -93,17 +93,11 @@ Users can interact with the system through a capacitive touchscreen to switch sc
 | Backlight | GPIO 4 |
 | MISO | Not used |
 
-Display resolution:
+Display resolution: 480 × 320 pixels
 
-```text
-480 × 320 pixels
-```
 
-SPI clock:
+SPI clock: 80 MHz
 
-```text
-80 MHz
-```
 
 ### FT6336U Touch — I2C
 
@@ -114,11 +108,8 @@ SPI clock:
 | INT | GPIO 3 |
 | I2C address | 0x38 |
 
-I2C clock:
+I2C clock: 400 kHz
 
-```text
-400 kHz
-```
 
 ### AHT30 + DS3231 — I2C
 
@@ -134,11 +125,8 @@ The AHT30 and DS3231 share a separate I2C bus.
 | AHT30 | 0x38 |
 | DS3231 | 0x68 |
 
-I2C clock:
+I2C clock: 100 kHz
 
-```text
-100 kHz
-```
 
 ---
 
