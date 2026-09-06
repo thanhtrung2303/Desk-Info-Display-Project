@@ -347,8 +347,6 @@ config_example.h
                               └── add your credentials
 ```
 
-> **Security:** Never commit real Wi-Fi passwords or API keys to a public repository.
-
 ---
 
 ## 🛠️ Software Requirements
