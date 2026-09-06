@@ -529,11 +529,8 @@ This project demonstrates practical embedded-system development using:
 
 ## 📷 Demo
 
-```markdown
+
 ![Desk Information Display](docs/images/overview.jpg)
-```
-
-
 
 [![ESP32-S3 Desk Information Display](docs/images/youtube_thumbnail.jpg)](https://www.youtube.com/watch?v=urLbEkBrgyA&t=35s)
 
