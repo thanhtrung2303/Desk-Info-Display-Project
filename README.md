@@ -24,45 +24,19 @@ Users can interact with the system through a capacitive touchscreen to switch sc
 
 ## ✨ Features
 
-### Dashboard
-
-- Digital clock
-- Vietnamese date and day-of-week display
-- Indoor temperature
-- Indoor humidity
-- Outdoor temperature
-- Outdoor humidity
-- Hanoi AQI
-- Celsius/Fahrenheit display selection
-
-### Hot News
-
-- Retrieves the latest sports news headlines
-- Displays up to three headlines
-- Supports scrolling text for long headlines
-- Automatically refreshes online data
-
-### Settings
-
-- LCD brightness adjustment
-- RTC hour/minute setting
-- RTC date/month/year setting
-- Automatic day-of-week calculation
-- Celsius/Fahrenheit selection
-- Save the configured time directly to DS3231
-
-### System
-
-- Wi-Fi Station mode
-- Automatic Wi-Fi reconnection
-- HTTP/HTTPS API requests
-- JSON parsing using cJSON
-- FreeRTOS task-based architecture
-- LVGL graphical interface
-- Capacitive touchscreen input
-- SPI TFT display
-- I2C sensor/RTC communication
-- PWM LCD backlight control
+- 🌡️ Read indoor temperature and humidity from **AHT30**
+- 🕒 Real-time clock using **DS3231**
+- 📅 Display date, time, and day of the week
+- 🌤️ Retrieve outdoor weather information through **OpenWeatherMap API**
+- 🌫️ Retrieve air-quality information through **WAQI API**
+- 📰 Retrieve news through an RSS-to-JSON service
+- 📱 4.0-inch-class **480 × 320 TFT LCD** graphical interface
+- 👆 Capacitive touchscreen using **FT6336U**
+- 🎨 GUI developed with **LVGL 9.5** and **SquareLine Studio**
+- 💡 Adjustable LCD brightness using **LEDC PWM**
+- 🌡️ Switch between Celsius (°C) and Fahrenheit (°F)
+- ⚙️ Touchscreen settings for brightness and RTC time/date
+- 🔄 FreeRTOS tasks for GUI, sensors, RTC, and network services
 
 ---
 
