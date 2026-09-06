@@ -278,28 +278,13 @@ The selected time/date is converted to the required DS3231 format and written to
 
 ---
 
-## 🌐 Online Services
+## 🌐 Online APIs
 
-### OpenWeatherMap
+The application retrieves information from external web services:
 
-Used to obtain outdoor:
-
-- Temperature
-- Humidity
-
-The project requests Hanoi weather data using metric units.
-
-### WAQI
-
-Used to obtain:
-
-- Air Quality Index (AQI)
-
-### RSS2JSON + VNExpress
-
-The application retrieves a VNExpress sports RSS feed through RSS2JSON and extracts the latest three article titles.
-
-API data is parsed using **cJSON**.
+- OpenWeatherMap — outdoor weather
+- WAQI — air quality
+- RSS-to-JSON service — news feed
 
 ---
 
